@@ -23,8 +23,8 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Department Overwatch", // required by Discord API, not shown in the client
-        state: "Department Overwatch",     // this is what people actually see
+        name: "Departmential Overwatch", // required by Discord API, not shown in the client
+        state: "Departmential Overwatch",     // this is what people actually see
         type: 3,               // Custom
       },
     ],
