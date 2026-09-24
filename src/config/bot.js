@@ -23,9 +23,9 @@ export const botConfig = {
     // 5 = Competing
     activities: [
       {
-        name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
-        type: 4,               // Custom
+        name: "Department Overwatch", // required by Discord API, not shown in the client
+        state: "Department Overwatch",     // this is what people actually see
+        type: 3,               // Custom
       },
     ],
   },
@@ -93,8 +93,8 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
-      secondary: "#2F3136",
+      primary: "#303030",
+      secondary: "#303030",
 
       // Standard status colors for success/error/warning/info messages.
       success: "#57F287",
@@ -449,16 +449,16 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: true,
-    leveling: true,
+    economy: false,
+    leveling: false,
     moderation: true,
     logging: true,
     welcome: true,
 
     // Community engagement systems.
     tickets: true,
-    giveaways: true,
-    birthday: true,
+    giveaways: false,
+    birthday: false,
     counter: true,
 
     // Security and self-service systems.
